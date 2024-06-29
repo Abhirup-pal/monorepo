@@ -12,3 +12,10 @@ updates:
       interval: "daily"
     labels:
       - "dependencies"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/apps/app3" # Location of package manifests
+    versioning-strategy: "increase"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
